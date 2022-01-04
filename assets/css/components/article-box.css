@@ -1,0 +1,42 @@
+.item-box {
+  width: 100%;
+  padding: 35px 25px 15px 25px;
+  border: 1px solid var(--matrix-light-green);
+  position: relative;
+}
+.item-box .item-title {
+  width: 100%;
+  padding: 5px 0 5px 25px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--matrix-light-green);
+  color: var(--matrix-black);
+  font-family: "Consolas";
+}
+.item-intro {
+  margin: 15px 0;
+  color: #fff;
+  text-align: justify;
+}
+.item-link {
+  padding: 5px 15px;
+  margin-right: 10px;
+  display: inline-block;
+  font-family: "Consolas Bold";
+  font-size: 0.95rem;
+  color: var(--matrix-black);
+  background-color: var(--matrix-light-green);
+}
+.item-link:hover {
+  background-color: #fff;
+}
+
+/*== Responsive ==*/
+
+@media only screen and (min-width: 900px) {
+  .item-box {
+    width: calc(25% - 12px);
+  }
+}

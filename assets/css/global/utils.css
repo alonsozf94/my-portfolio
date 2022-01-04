@@ -1,0 +1,36 @@
+/*== UTILS ==*/
+
+a {
+  cursor: pointer;
+}
+.green-title {
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  background-color: var(--matrix-light-green);
+  color: var(--matrix-black);
+}
+.underscore-list {
+  list-style-type: none;
+  padding: 0;
+}
+.underscore-list li {
+  font-family: "Consolas";
+}
+.underscore-list li::before {
+  content: "> ";
+  font-family: "Consolas";
+}
+
+/*== Spaces ==*/
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}

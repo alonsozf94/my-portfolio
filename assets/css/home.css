@@ -1,0 +1,93 @@
+@import url("./components/article-box.css");
+@import url("./components/inputs.css");
+
+/*== Hero ==*/
+
+.hero {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  max-width: 700px;
+}
+
+.hero h3 {
+  color: var(--matrix-regular-green);
+  /* color: white; */
+}
+
+.hero .input-line {
+  animation: blink-animation 1.5s steps(5, start) infinite;
+}
+
+.hero .next-arrow {
+  font-size: 60px;
+  color: var(--matrix-light-green);
+  position: absolute;
+  bottom: 50px;
+  right: 50%;
+}
+
+/*== About ==*/
+.about p,
+.about li {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.about p {
+  display: block;
+}
+
+.about .grid-list {
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+}
+
+.about .grid-list li {
+  max-width: 255px;
+}
+
+@media only screen and (min-width: 900px) {
+  .about p,
+  .about li {
+    font-size: 1.2rem;
+  }
+}
+
+/*== Projects & Articles==*/
+.boxes-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/*== Projects ==*/
+.projects-container {
+  justify-content: start;
+}
+
+/*== Articles ==*/
+.articles-container {
+  justify-content: space-between;
+}
+
+/*== Contact==*/
+.contact * {
+  font-size: 1.2rem;
+}
+
+/*== Animation ==*/
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}

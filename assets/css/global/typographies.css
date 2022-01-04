@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@font-face {
+  font-family: "Consolas";
+  src: url("../../fonts/consolas.woff") format("woff"),
+    url("../../fonts/consolas.ttf") format("embedded-opentype");
+}
+@font-face {
+  font-family: "Consolas Bold";
+  src: url("../../fonts/consolas-bold.woff") format("woff"),
+    url("../../fonts/consolas-bold.ttf") format("embedded-opentype");
+}
+
+/*== Font Setup ==*/
+body,
+label,
+p,
+input,
+select,
+textarea,
+a,
+th {
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+}
+
+/*== Titles ==*/
+
+h1,
+h2 {
+  font-family: "Consolas Bold";
+  color: var(--matrix-light-green);
+}
+
+.main-title {
+  font-size: 3rem;
+}
+
+.title {
+  font-size: 2.8rem;
+}
+
+.sub-title {
+  font-size: 1.5rem;
+  font-family: "Consolas";
+  color: var(--matrix-regular-green);
+}
+
+@media only screen and (min-width: 900px) {
+  .main-title {
+    font-size: 5rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .sub-title {
+    font-size: 2rem;
+  }
+}

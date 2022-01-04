@@ -1,0 +1,26 @@
+:root {
+  --matrix-black: #0d0208;
+  --matrix-dark-green: #003b00;
+  --matrix-regular-green: #008f11;
+  --matrix-light-green: #00ff41;
+}
+
+/* == Color Set Up == */
+
+body {
+  background-color: var(--matrix-black);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li {
+  color: var(--matrix-light-green);
+}
+
+/* == Color Classes == */
+.matrix-light-green {
+  color: var(--matrix-light-green);
+}
