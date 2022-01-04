@@ -61,3 +61,19 @@
 .rb-group label {
   color: var(--matrix-light-green);
 }
+
+.submit-btn {
+  padding: 5px 15px;
+  margin: 10px 0;
+  display: block;
+  font-family: "Consolas Bold";
+  font-size: 0.95rem;
+  color: var(--matrix-black);
+  background-color: var(--matrix-light-green);
+  border: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+}
